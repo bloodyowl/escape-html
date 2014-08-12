@@ -1,0 +1,41 @@
+{
+  "devDependencies": {
+    "tape": "^2.14.0"
+  },
+  "name": "bloody-escapehtml",
+  "description": "escape HTML special chars",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "tape": "^2.14.0"
+  },
+  "scripts": {
+    "test": "tape test/**.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:bloodyowl/escape-html.git"
+  },
+  "author": "bloodyowl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bloodyowl/escape-html/issues"
+  },
+  "homepage": "https://github.com/bloodyowl/escape-html",
+  "testling" : {
+    "files" : "test/**.js",
+    "browsers": [
+      "ie/8..10",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/6..latest",
+      "opera/11.0..latest",
+      "iphone/6..latest",
+      "ipad/6..latest",
+      "android-browser/latest"
+    ]
+  }
+}
