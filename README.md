@@ -1,5 +1,9 @@
 # escapeHTML
 
+[![browser support](https://ci.testling.com/bloodyowl/escape-html.png)](https://ci.testling.com/bloodyowl/escape-html)
+
+[![Build Status](https://travis-ci.org/bloodyowl/escape-html.svg?branch=1.0.0)](https://travis-ci.org/bloodyowl/escape-html)
+
 ## install
 
 ```sh
