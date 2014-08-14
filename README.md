@@ -30,6 +30,10 @@ escapes special HTML chars :
 ' => &#39;
 ```
 
+### escapeHTML.unescapeHTML(string) > string
+
+unescapes special HTML chars.
+
 ## example
 
 ```javascript
